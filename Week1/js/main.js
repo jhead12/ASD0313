@@ -3,11 +3,11 @@ $('#home').on('pageinit', function () {
 
 });
 
-$('#').on('pageinit' , function () {
+$('#style2').on('pageinit' , function () {
 	// body...
 })
 
-$('#').on('pageinit', function() {
+$('#style3').on('pageinit', function() {
 	
 	// Act on the event
 });
