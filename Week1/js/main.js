@@ -1,5 +1,6 @@
 $('#home').on('pageinit', function () {
 	// body...
+
 });
 
 $('#').on('pageinit' , function () {
