@@ -1,37 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
 <head>
-	<title>iJ - Artist Branding</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="stylesheet" href='' />
-	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+    <title>iJ - Artist Branding</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <link href="js/libs/jquery.mobile-1.3.0/jquery.mobile-1.3.0.min.css" rel=
+    "stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/libs/jquery-1.9.1.min.js"></script>
+    <script src="js/libs/jquery.mobile-1.3.0/jquery.mobile-1.3.0.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 </head>
+
 <body>
-<div data-role="page">
-	<header data-role="header">
-		<h1>Page header</h1>
-		<nav data-role="navbar">
-			<ul>
-				 <li><a href="#">item1</a></li>
-				 <li><a href="#">item2</a></li>
-				 <li><a href="#">item3</a></li>
-			</ul>
-		</nav>
-	</header><!-- /header -->
-	<article data-role="content">
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-		<ul data-role="listview">
-			<li><a href="#">item1</a></li>
-			<li><a href="#">item2</a></li>
-			<li><a href="#">item3</a></li>
-		</ul>
-	</article><!-- /content -->
-	<footer data-role="footer">
-		<h4>Page footer</h4>
-	</footer><!-- /footer -->
-</div><!-- /page -->
+    <section data-role="page" id="home">
+        <header class="ui-title" data-role="header">
+            <a class="menu" data-icon="bars" data-role="button" href=
+            "#options"></a>
+
+            <h1>ij The Artist</h1>
+        </header><!-- /header -->
+
+        <article data-role="content">
+            <article>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique debitis sint sed placeat vero ipsum a eligendi
+                accusamus voluptas itaque alias mollitia facere voluptatem
+                natus vel possimus dicta. Sunt inventore eligendi consectetur
+                recusandae molestias quas numquam in tempora repellat obcaecati
+                officiis rerum totam sit quaerat nesciunt corporis quae
+                voluptatem error ut consequuntur distinctio! Reiciendis commodi
+                ea nihil minima laboriosam accusamus voluptates tempora illo
+                ipsum incidunt inventore quod facere sapiente eum quidem sed
+                ipsam atque distinctio assumenda placeat nisi voluptatum maxime
+                itaque ut corporis natus possimus magni! Impedit nostrum
+                doloremque quo unde sunt sint pariatur modi itaque magni
+                accusantium iure autem perspiciatis. Est dolorem eos harum
+                possimus odit illum repudiandae assumenda expedita nemo optio
+                ad autem quaerat sunt recusandae voluptates veritatis sed omnis
+                repellendus. Voluptatibus incidunt quibusdam sunt temporibus
+                voluptatum laborum rerum laboriosam vero. Amet eaque voluptas
+                laboriosam alias in ad praesentium quam nihil illo et animi
+                modi rerum cum laborum voluptatum est quo sint accusamus. Non
+                aliquam odio facilis labore explicabo reiciendis. Corporis nemo
+                quam esse deserunt repellendus consectetur libero commodi ipsum
+                quos vero exercitationem incidunt expedita ullam itaque animi
+                aspernatur aut unde id. A quis aut ducimus reprehenderit est
+                inventore sequi repudiandae iure quibusdam sapiente soluta
+                perspiciatis ab nam!
+            </article><a data-role="button" href="#style1">Game</a>
+        </article><!-- /content -->
+
+        <footer data-id="foot" data-position="fixed" data-role="footer">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a data-icon="home" href="#home"></a></li>
+
+                    <li><a data-icon="grid" href="#style2"></a></li>
+
+                    <li><a data-icon="bar" href="#style3"></a></li>
+                </ul>
+            </nav><!-- /footer -->
+        </footer><!-- /footer -->
+    </section><!-- /page -->
+
+    <section data-role="page" id="style1">
+        <header data-role="header">
+            <h1>iStyle</h1>
+        </header><!-- /header -->
+
+        <article data-role="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+            iste autem rem error saepe libero voluptas dolorum odit ipsam
+            possimus inventore architecto eos in ipsum vero repellat eveniet
+            corrupti voluptatibus?</p>
+        </article><!-- /content -->
+
+        <footer data-id="foot" data-position="fixed" data-role="footer">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a data-icon="home" href="#home"></a>ijStyle</li>
+
+                    <li><a data-icon="grid" href="#style2"></a>iStyle</li>
+
+                    <li><a data-icon="bar" href="#style3"></a>uStyle</li>
+                </ul>
+            </nav>
+        </footer><!-- /footer -->
+    </section><!-- /style1 -->
+
+    <section data-role="page" id="style2">
+        <header data-role="header">
+            <h1>iStyle</h1>
+        </header><!-- /header -->
+
+        <article data-role="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+            iste autem rem error saepe libero voluptas dolorum odit ipsam
+            possimus inventore architecto eos in ipsum vero repellat eveniet
+            corrupti voluptatibus?</p>
+        </article><!-- /content -->
+
+        <footer data-id="foot" data-position="fixed" data-role="footer">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a data-icon="home" href="#home"></a>ijStyle</li>
+
+                    <li><a data-icon="grid" href="#style2"></a>iStyle</li>
+
+                    <li><a data-icon="bar" href="#style3"></a>uStyle</li>
+                </ul>
+            </nav>
+        </footer><!-- /footer -->
+    </section><!-- /style2 -->
+
+    <section data-role="page" id="style3">
+        <header data-role="header">
+            <h1>uStyle</h1>
+        </header><!-- /header -->
+
+        <article data-role="content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a ui-bar ui-bar-e" style="height:60px">
+                    A
+                </div>
+
+                <div class="ui-block-b ui-bar ui-bar-e" style="height:60px">
+                    B
+                </div>
+
+                <div class="ui-block-c ui-bar ui-bar-e" style="height:60px">
+                    C
+                </div>
+
+                <div class="ui-block-a ui-bar ui-bar-e" style="height:60px">
+                    A
+                </div>
+
+                <div class="ui-block-b ui-bar ui-bar-e" style="height:60px">
+                    B
+                </div>
+
+                <div class="ui-block-c ui-bar ui-bar-e" style="height:60px">
+                    C
+                </div>
+
+                <div class="ui-block-a ui-bar ui-bar-e" style="height:60px">
+                    A
+                </div>
+
+                <div class="ui-block-b ui-bar ui-bar-e" style="height:60px">
+                    B
+                </div>
+
+                <div class="ui-block-c ui-bar ui-bar-e" style="height:60px">
+                    C
+                </div>
+            </div><!-- /grid-c -->
+        </article><!-- /content -->
+
+        <footer data-id="foot" data-position="fixed" data-role="footer">
+            <nav data-role="navbar">
+                <ul>
+                    <li><a data-icon="home" href="#home"></a>ijStyle</li>
+
+                    <li><a data-icon="grid" href="#style2"></a>iStyle</li>
+
+                    <li><a data-icon="bar" href="#style3"></a>uStyle</li>
+                </ul>
+            </nav>
+        </footer><!-- /footer -->
+    </section><!-- /style3 -->
 </body>
 </html>
