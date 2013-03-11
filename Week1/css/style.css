@@ -1,3 +1,11 @@
+/*
+Joshua Head
+ASD 
+0313
+
+*/
+
+
 body{
 	margin: 0 auto;
 	background: grey;
@@ -9,4 +17,41 @@ body{
 
 
 }
+.ui-title{
+	padding-left: 20px;
 
+}
+
+.menu{
+	
+	border:2px #800000;
+	width:250px;
+	float: left;	
+	display: block;
+
+}.menu_2{
+	
+	border:2px #800000;
+	width:250px;
+	float: left;	
+	display: block;
+
+}
+.grid{
+
+	width: 36px;
+	height: 36px;
+	display: block;
+
+}
+
+.m1{
+	border: 20px;
+
+
+}
+
+.ui-icon-big-gear{
+	
+
+}
