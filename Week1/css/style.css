@@ -28,6 +28,7 @@ body{
 	width:250px;
 	float: left;	
 	display: block;
+	position: absolute;
 
 }.menu_2{
 	
@@ -35,11 +36,21 @@ body{
 	width:250px;
 	float: left;	
 	display: block;
-
+	position: absolute;
 }
 .grid{
 
 	
+
+}
+
+.cta{
+	height: 500px;
+	background-color: #ff0000;
+
+}.cta2{
+	height: 500px;
+	background-color: #6666ff;
 
 }
 
@@ -51,5 +62,14 @@ body{
 
 .ui-icon-big-gear{
 	
+
+}
+#hvbt{
+	position: absolute;
+	height: 20px;
+	width: 200px;
+	margin-top: 400px;
+	margin-left: 150px;
+
 
 }
