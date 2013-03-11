@@ -6,6 +6,8 @@ $('#home').on('pageinit', function () {
 	$('.grid').on("click", function () {
 		$(".menu").toggle("slide");
 		// body...
+
+
 })
 	
 
@@ -26,7 +28,7 @@ $('#login').on('pageinit', function() {
 $('#style2').on('pageinit' , function () {
 	// body...
 })
-$('#options').on('pageinit', function() {
+$('#settings').on('pageinit', function() {
 
 	$('.menu_2').listview();
 	$('.menu_2').hide();
