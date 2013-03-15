@@ -8,45 +8,84 @@ ASD
 
 body{
 	margin: 0 auto;
-	background: grey;
+	background: #b3b3b3;
+}
+
+#home {
+
+	background: #ff6666;
+
 }
 #color{
 	height: 300px;
 	widows: 300px;
-	background-color: 000;
+	
 
 
 }
-.ui-title{
+/*.ui-title{
 	padding-left: 20px;
 
-}
+}*/
 
 .menu{
 	
-	border:2px #800000;
+	border:2px ;
 	width:250px;
 	float: left;	
 	display: block;
 	position: absolute;
 
-}.menu_2{
+}
+.menu_2{
 	
-	border:2px #800000;
+	border:2px ;
+	width:250px;
+	float: left;	
+	display: block;
+	position: absolute;
+}.menu_3{
+	
+	border:2px ;
 	width:250px;
 	float: left;	
 	display: block;
 	position: absolute;
 }
-.grid{
-
+.menu_4{
 	
-
+	border:2px ;
+	width:250px;
+	float: left;	
+	display: block;
+	position: absolute;
+}.menu_5{
+	
+	border:2px ;
+	width:250px;
+	float: left;	
+	display: block;
+	position: absolute;
+}.menu_6{
+	
+	border:2px ;
+	width:250px;
+	float: left;	
+	display: block;
+	position: absolute;
+}.menu_7{
+	
+	border:2px ;
+	width:250px;
+	float: left;	
+	display: block;
+	position: absolute;
 }
+
 
 .cta{
 	height: 500px;
-	background-color: #ff0000;
+	background-color: #ffffff;
 
 }.cta2{
 	height: 500px;
@@ -72,4 +111,12 @@ body{
 	margin-left: 150px;
 
 
+}
+#profile .sbtn{
+
+	z-index: -1;
+}
+.error{	
+	color:#ff0000;
+	text-decoration: none;
 }
