@@ -150,7 +150,7 @@
             </nav><!-- /footer -->
         </footer><!-- /footer -->
        </section><!-- /Settings page -->
-
+ 
 
 
         <!-- Photos Page -->
@@ -229,6 +229,7 @@
        <section id="signup" data-role="page">
            <header  data-id="head" data-id="head" data-role="header">
                <h1>sign up</h1>
+
             <a href="#" data-role="button" data-icon="bars" data-iconpos="notext" data-theme="d" data-inline="true" class="grid"></a>
 
         </header><!-- /header -->
@@ -245,7 +246,8 @@
         </section>
 
            <div data-role="content">
-                 <div id="errorbox" ><ul data-rel="popup" data-position-to="window"></ul></div>
+                 <div id="errorbox" ><a href="#error" data-rel="dialog" data-position-to="window">test</a></div>
+
                 <form method="post" action="#profile" id="contactForm">
                     <fieldset id="fset">
                         
@@ -278,9 +280,15 @@
                         <div data-role="fieldcontain">
                             <label for="male">Male:</label> <input type="radio" name="sex" value="male" id="male" checked> <label for="female">Female:</label> <input type="radio" name="sex" value="female" id="female">
                         </div>
+
+                        <div data-role="fieldcontain">
+                            <label for="date-1">Birth Day</label>
+                        <input type="date" data-clear-btn="false" name="dob" id="dob" value="" name="dob"><span class="default">ex. 12/12/1982</span>
+                        </div>
                         <div data-role="fieldcontain">
                             <label for="email">Your Email Address:</label> <input type="email" id="email" name="email"><span class="default">ex. yourEmail@email.com</span>
                         </div>
+                       
                             <div data-role="fieldcontain">
                                 
                                 <input data-theme="b" id="submit" type="submit" value="Submit">
@@ -300,7 +308,7 @@
                 <ul>
                     <li><a data-icon="gear" href="#profile">Profile</a></li>
 
-                    <li><a data-icon="bars" href="#photos">Photos</a></li>
+                    <li><a data-icon="bars" href="#data">Data</a></li>
 
                 </ul>
             </nav><!-- /footer -->
@@ -309,18 +317,38 @@
 
        <section id="data" data-role="page">
            <header data-role="header">
-               <h1>Header</h1>
-           </header><!-- /header -->
+               <h1>data</h1>
+           <a href="#" data-role="button" data-icon="bars" data-iconpos="notext" data-theme="d" data-inline="true" class="grid"></a>
+
+        </header><!-- /header -->
+
+             <section class="menu_8">
+            
+            <ul  data-role="listview" data-inset="true" data-theme="c">
+                    <li data-icon="home"><a href="#home">Home</a></li>
+                    <li data-icon="gear"><a href="#settings">Settings</a></li>
+                    <li data-icon="check"><a href="#profile">profile</a></li>
+                    
+                </ul>
+
+        </section>
            <article data-role="content">
                <p>Content</p>
+                
+
+               <a href="#" data-role="button"class="sd1">Show Data</a>
+
+            <br/>
 
                <div class="dt1">
                    
-                    <ul>
+                    <ul data-role="listview">
                         <li><img src="images/profile/Hollowbody 1.gif">
-                            <div>FirstName:</div>
-                            <div>LastName:</div>
-                            <div>profile:</div>
+                            <li>FirstName:</li>
+                            <li>LastName:</li>
+                            <li>profile:</li>
+                            <li>UserStatus:</li>
+                            <li>DOB:</li>
 
                         </li>
 
@@ -342,14 +370,13 @@
 
        <section id="error" data-role="page">
            <header data-role="header">
-               <h1>error</h1>
+               <h1>errors</h1>
            </header><!-- /header -->
            <article data-role="content">
-               <p>Content</p>
+               <p>Below are the Errors</p>
+               <div class="error1"></div>
            </article><!-- /content -->
-           <footer data-role="footer">
-               <h1>Footer</h1>
-           </footer><!-- /footer -->
+           
        </section><!-- /page -->
 
 
