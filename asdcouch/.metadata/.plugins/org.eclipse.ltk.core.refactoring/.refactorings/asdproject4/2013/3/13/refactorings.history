@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 12 elements from project &apos;asdproject4&apos;&#x0A;- Original project: &apos;asdproject4&apos;&#x0A;- Original elements:&#x0A;     app&#x0A;     _attachments&#x0A;     evently&#x0A;     lists&#x0A;     shows&#x0A;     updates&#x0A;     vendor&#x0A;     views&#x0A;     _id&#x0A;     couchapp.json&#x0A;     language&#x0A;     README.md" description="Delete elements" element1="app" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1364484696013" subPackages="false" version="1.0"/>
+</session>

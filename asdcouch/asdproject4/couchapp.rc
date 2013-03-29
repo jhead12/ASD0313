@@ -5,7 +5,7 @@
     
     },
       "cloudant": {
-      "db": "https://picheredlyesehistrantimm:hrfo2alQFdcqXnVv4OMeyX3O@jhead12.cloudant.com/userstatus"
+      "db": "https://jhead12:password@jhead12.cloudant.com/userstatus2"
    
     } 
   }
