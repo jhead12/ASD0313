@@ -10,9 +10,12 @@ $("#home").on("pageinit", function() {
                         var item = (value.value || value.doc);
                         console.log(value);
                         
-                        $("#userType").after("<option>" + item.Name + "</option>");
+                        $("#userType").append("<option>" + item.Name + "</option>");
+                        $("#userType").selectmenu("refresh");
                     })
+
                 }
+
 
             });
 
@@ -54,7 +57,6 @@ $("#home").on("pageinit", function() {
             var data1 = $('#form').serializeArray();
             storeData(data1);
 
-
             
             $.mobile.changePage("#data", {
                 transistion:"pop",
@@ -83,32 +85,31 @@ $("#data").on("pageinit", function () {
               $.each(data.rows, function (index, value) {
                         // body...
                         var item = (value.value || value.doc);
-                        var total = $(item).size();
+                        var total = 4;
 
                         console.log(value);
 
-                        var $page = $("#statusList ul");
+                        var $page = $("#statusList");
                         $page.append(
 
                             $('<li>').append(
                             $('<a>')
-                            .attr("href", "status.html?status=" + item.Name)
+                            .attr("href", "#details")
                             .text(item.Name).append("<span class=ui-li-count>" + total + "</span>")
                             )
 
                         );
-
-
-
+                         var $this = $(this);
+                         
 
                 });
 
-$("#statusList ul").listview("refresh");
+$("#statusList").listview("refresh");
 
         }
     })
 
-        
+
 
 
 });
@@ -117,8 +118,6 @@ $("#statusList ul").listview("refresh");
 
 $("#details").on("pageinit", function() {
     // body...
-
-
 
 
 
